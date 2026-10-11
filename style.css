@@ -308,5 +308,28 @@ table tr td
 { font-weight: bold;
   color: #43423F;}
 
+/* centered header */
+#logo #logo_text
+{ left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;}
+
+/* keep all menu tabs on one line */
+ul#menu
+{ display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  float: none;}
+ul#menu li
+{ float: none;
+  flex: 1 1 auto;}
+ul#menu li a
+{ float: none;
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+  font-size: 92%;
+  padding: 29px 6px 6px 6px;}
+
 #logo_text h2 a, #logo_text h2 a:hover
 { color: #EEE;}
